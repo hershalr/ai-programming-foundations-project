@@ -74,7 +74,7 @@ Cleaning choices can also mislead if reviewers forget that dropped rows remove c
 
 ## Reproducibility
 
-Someone else can rerun the work by cloning the repository, installing pinned packages with `pip install -r requirements.txt`, and opening `data_workflow.ipynb` from the `solution/` directory so `data/WB_CCDFS_WIDEF.csv` resolves correctly. Keeping data, notebook, requirements, and this summary in version control—with multiple commits and at least one development branch—matches open reproducible-data-science practice: scripted steps, declared dependencies, and artifacts that can be regenerated without hidden GUI clicks (Peng, 2021). Optional PDF export of this Markdown source uses pandoc: `pandoc module_summary.md -o module_summary.pdf` or `bash convert_reports.sh`.
+Someone else can rerun the work by cloning the public repository at https://github.com/hershalr/ai-programming-foundations-project (branches `main` and `develop`), installing pinned packages with `pip install -r requirements.txt`, and opening `data_workflow.ipynb` from the project root so `data/WB_CCDFS_WIDEF.csv` resolves correctly. Keeping data, notebook, requirements, and this summary in version control—with multiple commits and at least one development branch—matches open reproducible-data-science practice: scripted steps, declared dependencies, and artifacts that can be regenerated without hidden GUI clicks (Peng, 2021). Optional PDF export of this Markdown source uses pandoc: `pandoc module_summary.md -o module_summary.pdf` or `bash convert_reports.sh`.
 
 ---
 
